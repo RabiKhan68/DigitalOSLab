@@ -1,0 +1,160 @@
+2026-06-09 01:46:24,891 - INFO - System started.
+2026-06-09 01:53:31,091 - INFO - PAGE FAULT -> Page 1
+2026-06-09 01:53:31,092 - INFO - Current Memory -> [1]
+2026-06-09 01:53:31,092 - INFO - PAGE FAULT -> Page 2
+2026-06-09 01:53:31,092 - INFO - Current Memory -> [1, 2]
+2026-06-09 01:53:31,093 - INFO - PAGE FAULT -> Page 3
+2026-06-09 01:53:31,093 - INFO - Current Memory -> [1, 2, 3]
+2026-06-09 01:53:31,093 - INFO - PAGE FAULT -> Page 4
+2026-06-09 01:53:31,094 - INFO - Removed Page 1
+2026-06-09 01:53:31,094 - INFO - Current Memory -> [2, 3, 4]
+2026-06-09 01:53:31,094 - INFO - PAGE FAULT -> Page 1
+2026-06-09 01:53:31,095 - INFO - Removed Page 2
+2026-06-09 01:53:31,095 - INFO - Current Memory -> [3, 4, 1]
+2026-06-09 01:53:31,095 - INFO - PAGE FAULT -> Page 2
+2026-06-09 01:53:31,095 - INFO - Removed Page 3
+2026-06-09 01:53:31,096 - INFO - Current Memory -> [4, 1, 2]
+2026-06-09 01:53:31,096 - INFO - PAGE FAULT -> Page 5
+2026-06-09 01:53:31,096 - INFO - Removed Page 4
+2026-06-09 01:53:31,097 - INFO - Current Memory -> [1, 2, 5]
+2026-06-09 01:53:31,098 - INFO - Current Memory -> [1, 2, 5]
+2026-06-09 01:53:31,098 - INFO - Current Memory -> [1, 2, 5]
+2026-06-09 01:53:31,099 - INFO - PAGE FAULT -> Page 3
+2026-06-09 01:53:31,099 - INFO - Removed Page 1
+2026-06-09 01:53:31,099 - INFO - Current Memory -> [2, 5, 3]
+2026-06-09 01:53:31,100 - INFO - PAGE FAULT -> Page 4
+2026-06-09 01:53:31,100 - INFO - Removed Page 2
+2026-06-09 01:53:31,100 - INFO - Current Memory -> [5, 3, 4]
+2026-06-09 01:53:31,101 - INFO - Current Memory -> [5, 3, 4]
+2026-06-09 01:53:31,102 - INFO - Total Page Faults = 9
+2026-06-09 02:09:36,456 - INFO - DIRECTORY CREATED -> students
+2026-06-09 02:09:36,456 - INFO - FILE CREATED -> notes.txt
+2026-06-09 02:09:36,456 - INFO - WRITE FILE -> notes.txt
+2026-06-09 02:09:36,457 - INFO - READ FILE -> notes.txt
+2026-06-09 02:09:36,457 - INFO - DELETE FILE -> notes.txt
+2026-06-09 02:19:41,316 - INFO - DIRECTORY CREATED -> students
+2026-06-09 02:19:41,316 - INFO - FILE CREATED -> notes.txt
+2026-06-09 02:19:41,317 - INFO - WRITE FILE -> notes.txt by ali
+2026-06-09 02:19:41,317 - INFO - READ FILE -> notes.txt by guest1
+2026-06-09 02:19:41,318 - INFO - SECURITY VIOLATION -> User: guest1 Attempted: DELETE notes.txt
+2026-06-09 02:19:41,318 - INFO - DELETE FILE -> notes.txt by admin1
+2026-06-09 02:20:57,531 - INFO - DISK ACCESS -> Head:53 Request:65 Seek:12
+2026-06-09 02:20:57,531 - INFO - DISK ACCESS -> Head:65 Request:67 Seek:2
+2026-06-09 02:20:57,532 - INFO - DISK ACCESS -> Head:67 Request:37 Seek:30
+2026-06-09 02:20:57,532 - INFO - DISK ACCESS -> Head:37 Request:14 Seek:23
+2026-06-09 02:20:57,534 - INFO - DISK ACCESS -> Head:14 Request:98 Seek:84
+2026-06-09 02:20:57,534 - INFO - DISK ACCESS -> Head:98 Request:122 Seek:24
+2026-06-09 02:20:57,535 - INFO - DISK ACCESS -> Head:122 Request:124 Seek:2
+2026-06-09 02:20:57,535 - INFO - DISK ACCESS -> Head:124 Request:183 Seek:59
+2026-06-09 02:20:57,536 - INFO - TOTAL SEEK TIME -> 236
+2026-06-09 02:21:47,523 - INFO - DIRECTORY CREATED -> students
+2026-06-09 02:21:47,524 - INFO - FILE CREATED -> notes.txt
+2026-06-09 02:22:07,594 - INFO - DIRECTORY CREATED -> students
+2026-06-09 02:22:07,595 - INFO - FILE CREATED -> notes.txt
+2026-06-09 02:22:16,661 - INFO - DIRECTORY CREATED -> students
+2026-06-09 02:22:16,662 - INFO - FILE CREATED -> notes.txt
+2026-06-09 02:22:20,129 - INFO - DIRECTORY CREATED -> students
+2026-06-09 02:22:20,129 - INFO - FILE CREATED -> notes.txt
+2026-06-09 02:22:44,339 - INFO - DIRECTORY CREATED -> students
+2026-06-09 02:22:44,339 - INFO - FILE CREATED -> notes.txt
+2026-06-09 02:22:47,570 - INFO - USER LOGIN -> ali
+2026-06-09 02:23:14,168 - INFO - PAGE FAULT -> Page 5
+2026-06-09 02:23:14,169 - INFO - Current Memory -> [5]
+2026-06-09 02:23:14,169 - INFO - PAGE FAULT -> Page 9
+2026-06-09 02:23:14,170 - INFO - Current Memory -> [5, 9]
+2026-06-09 02:23:14,171 - INFO - PAGE FAULT -> Page 2
+2026-06-09 02:23:14,171 - INFO - Current Memory -> [5, 9, 2]
+2026-06-09 02:23:14,172 - INFO - PAGE FAULT -> Page 1
+2026-06-09 02:23:14,172 - INFO - Removed Page 5
+2026-06-09 02:23:14,176 - INFO - Current Memory -> [9, 2, 1]
+2026-06-09 02:23:14,177 - INFO - Current Memory -> [9, 2, 1]
+2026-06-09 02:23:14,178 - INFO - Current Memory -> [9, 2, 1]
+2026-06-09 02:23:14,179 - INFO - Total Page Faults = 4
+2026-06-09 02:24:07,088 - INFO - WRITE FILE -> notes.txt by ali
+2026-06-09 02:24:14,261 - INFO - READ FILE -> notes.txt by ali
+2026-06-09 02:24:32,030 - INFO - DISK ACCESS -> Head:1 Request:0 Seek:1
+2026-06-09 02:24:32,030 - INFO - DISK ACCESS -> Head:0 Request:5 Seek:5
+2026-06-09 02:24:32,031 - INFO - TOTAL SEEK TIME -> 6
+2026-06-09 02:24:44,991 - INFO - SYSTEM EXIT
+2026-06-09 02:33:17 | INFO | DIRECTORY CREATED | Directory: students
+2026-06-09 02:33:17 | INFO | FILE CREATED | File: notes.txt | Owner: admin1
+2026-06-09 02:33:23 | INFO | USER LOGIN -> admin1
+2026-06-09 02:33:48 | INFO | PAGE FAULT | Requested Page: 5
+2026-06-09 02:33:48 | INFO | MEMORY STATUS | Frames: [5] | Usage: 33.33%
+2026-06-09 02:33:48 | INFO | PAGE FAULT | Requested Page: 2
+2026-06-09 02:33:48 | INFO | MEMORY STATUS | Frames: [5, 2] | Usage: 66.67%
+2026-06-09 02:33:48 | INFO | PAGE FAULT | Requested Page: 1
+2026-06-09 02:33:48 | INFO | MEMORY STATUS | Frames: [5, 2, 1] | Usage: 100.00%
+2026-06-09 02:33:48 | INFO | PAGE FAULT | Requested Page: 9
+2026-06-09 02:33:48 | INFO | PAGE REMOVED | Removed Page: 5
+2026-06-09 02:33:48 | INFO | MEMORY STATUS | Frames: [2, 1, 9] | Usage: 100.00%
+2026-06-09 02:33:48 | INFO | PAGE HIT | Page: 9
+2026-06-09 02:33:48 | INFO | MEMORY STATUS | Frames: [2, 1, 9] | Usage: 100.00%
+2026-06-09 02:33:48 | INFO | PAGE HIT | Page: 1
+2026-06-09 02:33:48 | INFO | MEMORY STATUS | Frames: [2, 1, 9] | Usage: 100.00%
+2026-06-09 02:33:48 | INFO | PAGE HIT | Page: 2
+2026-06-09 02:33:48 | INFO | MEMORY STATUS | Frames: [2, 1, 9] | Usage: 100.00%
+2026-06-09 02:33:48 | INFO | PAGE HIT | Page: 9
+2026-06-09 02:33:48 | INFO | MEMORY STATUS | Frames: [2, 1, 9] | Usage: 100.00%
+2026-06-09 02:33:48 | INFO | PAGE FAULT | Requested Page: 8
+2026-06-09 02:33:48 | INFO | PAGE REMOVED | Removed Page: 2
+2026-06-09 02:33:48 | INFO | MEMORY STATUS | Frames: [1, 9, 8] | Usage: 100.00%
+2026-06-09 02:33:48 | INFO | PAGE FAULT | Requested Page: 21
+2026-06-09 02:33:48 | INFO | PAGE REMOVED | Removed Page: 1
+2026-06-09 02:33:48 | INFO | MEMORY STATUS | Frames: [9, 8, 21] | Usage: 100.00%
+2026-06-09 02:33:48 | INFO | MEMORY STATISTICS | Requests: 10 | Page Faults: 6 | Fault Rate: 60.00%
+2026-06-09 02:34:23 | INFO | FILE CREATED | File: test.txt | Owner: admin1
+2026-06-09 02:34:42 | INFO | FILE WRITE | User: admin1 | File: test.txt
+2026-06-09 02:35:02 | INFO | FILE READ | User: admin1 | File: notes.txt
+2026-06-09 02:35:21 | INFO | SSTF DISK SCHEDULING STARTED
+2026-06-09 02:35:21 | INFO | DISK ACCESS | Current Head: 90 | Next Request: 90 | Seek Time: 0
+2026-06-09 02:35:21 | INFO | DISK ACCESS | Current Head: 90 | Next Request: 8 | Seek Time: 82
+2026-06-09 02:35:21 | INFO | DISK ACCESS | Current Head: 8 | Next Request: 7 | Seek Time: 1
+2026-06-09 02:35:21 | INFO | DISK ACCESS | Current Head: 7 | Next Request: 5 | Seek Time: 2
+2026-06-09 02:35:21 | INFO | DISK ACCESS | Current Head: 5 | Next Request: 5 | Seek Time: 0
+2026-06-09 02:35:21 | INFO | DISK ACCESS | Current Head: 5 | Next Request: 3 | Seek Time: 2
+2026-06-09 02:35:21 | INFO | DISK ACCESS | Current Head: 3 | Next Request: 1 | Seek Time: 2
+2026-06-09 02:35:21 | INFO | DISK SCHEDULING COMPLETED | Total Seek Time: 89 | Average Seek Time: 12.71
+2026-06-09 02:35:34 | INFO | SYSTEM EXIT
+2026-06-16 20:30:24 | INFO | DIRECTORY CREATED | Directory: students
+2026-06-16 20:30:24 | INFO | FILE CREATED | File: notes.txt | Owner: admin1
+2026-06-16 20:31:18 | INFO | USER LOGIN -> ali
+2026-06-16 20:32:01 | INFO | PAGE FAULT | Requested Page: 1
+2026-06-16 20:32:01 | INFO | MEMORY STATUS | Frames: [1] | Usage: 33.33%
+2026-06-16 20:32:01 | INFO | PAGE FAULT | Requested Page: 2
+2026-06-16 20:32:01 | INFO | MEMORY STATUS | Frames: [1, 2] | Usage: 66.67%
+2026-06-16 20:32:01 | INFO | PAGE FAULT | Requested Page: 3
+2026-06-16 20:32:01 | INFO | MEMORY STATUS | Frames: [1, 2, 3] | Usage: 100.00%
+2026-06-16 20:32:01 | INFO | PAGE FAULT | Requested Page: 4
+2026-06-16 20:32:01 | INFO | PAGE REMOVED | Removed Page: 1
+2026-06-16 20:32:01 | INFO | MEMORY STATUS | Frames: [2, 3, 4] | Usage: 100.00%
+2026-06-16 20:32:01 | INFO | PAGE FAULT | Requested Page: 5
+2026-06-16 20:32:01 | INFO | PAGE REMOVED | Removed Page: 2
+2026-06-16 20:32:01 | INFO | MEMORY STATUS | Frames: [3, 4, 5] | Usage: 100.00%
+2026-06-16 20:32:01 | INFO | PAGE FAULT | Requested Page: 0
+2026-06-16 20:32:01 | INFO | PAGE REMOVED | Removed Page: 3
+2026-06-16 20:32:01 | INFO | MEMORY STATUS | Frames: [4, 5, 0] | Usage: 100.00%
+2026-06-16 20:32:01 | INFO | PAGE FAULT | Requested Page: 9
+2026-06-16 20:32:01 | INFO | PAGE REMOVED | Removed Page: 4
+2026-06-16 20:32:01 | INFO | MEMORY STATUS | Frames: [5, 0, 9] | Usage: 100.00%
+2026-06-16 20:32:01 | INFO | PAGE FAULT | Requested Page: 8
+2026-06-16 20:32:01 | INFO | PAGE REMOVED | Removed Page: 5
+2026-06-16 20:32:01 | INFO | MEMORY STATUS | Frames: [0, 9, 8] | Usage: 100.00%
+2026-06-16 20:32:01 | INFO | PAGE FAULT | Requested Page: 7
+2026-06-16 20:32:01 | INFO | PAGE REMOVED | Removed Page: 0
+2026-06-16 20:32:01 | INFO | MEMORY STATUS | Frames: [9, 8, 7] | Usage: 100.00%
+2026-06-16 20:32:01 | INFO | PAGE FAULT | Requested Page: 6
+2026-06-16 20:32:01 | INFO | PAGE REMOVED | Removed Page: 9
+2026-06-16 20:32:01 | INFO | MEMORY STATUS | Frames: [8, 7, 6] | Usage: 100.00%
+2026-06-16 20:32:01 | INFO | MEMORY STATISTICS | Requests: 10 | Page Faults: 10 | Fault Rate: 100.00%
+2026-06-16 20:34:45 | INFO | FILE CREATED | File: Rabi.docx | Owner: ali
+2026-06-16 20:36:09 | INFO | FILE WRITE | User: ali | File: Rabi.docx
+2026-06-16 20:36:49 | INFO | FILE READ | User: ali | File: Rabi.docx
+2026-06-16 20:37:22 | WARNING | SECURITY VIOLATION | User: ali | Attempted Action: DELETE -> Rabi.docx
+2026-06-16 20:37:22 | INFO | SECURITY VIOLATION | User: ali | Attempted Action: DELETE -> Rabi.docx
+2026-06-16 20:38:25 | INFO | SSTF DISK SCHEDULING STARTED
+2026-06-16 20:38:25 | INFO | DISK ACCESS | Current Head: 1 | Next Request: 2 | Seek Time: 1
+2026-06-16 20:38:25 | INFO | DISK ACCESS | Current Head: 2 | Next Request: 3 | Seek Time: 1
+2026-06-16 20:38:25 | INFO | DISK ACCESS | Current Head: 3 | Next Request: 5 | Seek Time: 2
+2026-06-16 20:38:25 | INFO | DISK SCHEDULING COMPLETED | Total Seek Time: 4 | Average Seek Time: 1.33
+2026-06-16 20:40:05 | INFO | SYSTEM EXIT
